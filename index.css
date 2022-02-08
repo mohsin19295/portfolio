@@ -307,11 +307,11 @@ li {
     color:  #dd9a05;
 }
 
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 600px){
     .icons {
         display: none;
     }
-}
+} */
 
 .section {
     padding: 5rem 0 7rem 0;
