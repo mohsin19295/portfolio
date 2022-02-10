@@ -254,14 +254,7 @@ li {
     justify-content: center;
   }
 }
-@media only screen and (max-width: 700px) {
-  .banner {
-    width: 180px;
-    height: 180px;
-    margin-top: 350px;
-    justify-content: center;
-  }
-}
+
 @media only screen and (max-width: 550px) {
   .banner {
     width: 150px;
@@ -271,11 +264,6 @@ li {
   }
 }
 @media only screen and (max-width: 400px) {
-  .banner {
-    margin-top: 150px;
-    width: 120px;
-    height: 120px;
-  }
   .header {
     height: 70vh;
   }
@@ -578,20 +566,28 @@ footer {
   padding: 1.6rem 1rem;
   text-align: center;
 }
+
 @media only screen and (max-width: 700px) {
+  .banner {
+    width: 180px;
+    height: 180px;
+    margin-top: 350px;
+    justify-content: center;
+  }
   .contacts {
     display: grid;
     gap: 20px;
   }
 }
+
 @media only screen and (min-width: 400px) and (max-width: 600px) {
     .imgRight {
         margin-right: 80px;
       }
       .banner {
-        margin-top: 300px;
-        height: 300px;
-        width: 300px;
+        margin-top: 350px;
+        height: 200px;
+        width: 200px;
       }
 }
 @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -599,9 +595,9 @@ footer {
         margin-right: 80px;
       }
       .banner {
-        margin-top: 250px;
-        height: 400px;
-        width: 350px;
+        margin-top: 300px;
+        height: 250px;
+        width: 250px;
       }
 }
 @media only screen and (max-width: 399px) {
