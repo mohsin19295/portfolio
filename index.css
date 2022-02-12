@@ -54,14 +54,22 @@
 
 .pTag{
   padding: 1rem;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
    .main {
   grid-template-columns: auto;
   grid-template-areas: "a" "b";
   gap: 5rem;
+}
+}
+@media screen and (max-width: 415px) {
+  .btnMargin >a:nth-child(1) {
+  margin-bottom: 180px;
+}
+  .btnMargin >a:nth-child(2) {
+  margin-bottom: 100px;
 }
 }
 
@@ -105,6 +113,16 @@ li {
   background-attachment: fixed;
   background-position: 50% 0px;
   z-index: 0;
+}
+.contact{
+    color: white;
+    position: relative;
+    width: 100%;
+    background-image: url(images/black.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 0px;
+    z-index: -1;
 }
 .navbar {
   color: #fff;
@@ -573,8 +591,12 @@ footer {
   text-align: center;
 }
 
-.margin{
 
+
+@media only screen and (min-width:701px) and (max-width: 1400px) {
+  .contact{
+    margin-top:80px
+  }
 }
 
 @media only screen and (max-width: 700px) {
