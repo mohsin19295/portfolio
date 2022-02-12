@@ -5,6 +5,66 @@
   scroll-behavior: smooth;
 }
 
+.main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 40%);
+  grid-template-areas: "a b";
+  place-content: center;
+  gap: 2rem;
+}
+
+.main h2{
+  text-decoration: underline;
+}
+
+.cart {
+  border-radius: 4px;
+  background-color: #ffff;
+}
+
+.cart img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.cart article{
+  padding: 1rem;
+}
+
+.iconBtnCenter{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 3%;
+}
+
+.onlyBtn{
+  margin-top: 5%;
+  
+}
+
+.iconBtnCenter > img{
+  width:60px;
+}
+
+.projectTitle{
+  text-align: center;
+}
+
+.pTag{
+  padding: 1rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 700px) {
+   .main {
+  grid-template-columns: auto;
+  grid-template-areas: "a" "b";
+  gap: 5rem;
+}
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -306,6 +366,7 @@ li {
 .section {
   padding: 5rem 0 7rem 0;
   overflow-x: hidden;
+  border: 1px solid red
 }
 .about {
   margin-top: 5rem;
@@ -401,59 +462,7 @@ li {
   z-index: -1;
   color: #000;
 }
-.projectContainer {
-  display: flex;
-  margin: auto;
-  width: 90%;
-  height:470px;
-  justify-content: space-between;
 
-}
-.project {
-  width: 48%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-/* .img-cover {
-  margin: auto;
-  height: 40%;
-} */
-
-.techStack h1,
-.techStack p {
-    display: inline;
-    vertical-align: top;
-    font-size: 16px;
-    line-height: 28px;
-    background-color: teal
-}
-
-.img-cover {
-  height: 50%;
-  width: 100%;
-
-}
-/* .techStack{
-  height: 7%;
-
-} */
-.web {
-  height: 35%;
-  text-align: center;
-
-}
-.btnCss {
-  height: 11%;
-  display: flex;
-  /* display: inline; */
-  /* align-items: bottom; */
-
-  /* vertical-align: bottom; */
-    justify-content:center;
-    align-items:center;
-}
 
 
 a.btn {
@@ -486,24 +495,6 @@ a.btn:active {
   }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1200px) {
-  .web h2 {
-    font-size: 20px;
-  }
-  .web p {
-    font-size: 14px;
-  }
-  .img-cover {
-    height: 40%;
-  }
-  .web {
-    height: 35%;
-  }
-
-  .btnCss {
-    height: 10%;
-  }
-}
 
 .left h2 {
   font-size: 2rem;
@@ -546,22 +537,7 @@ a.btn:active {
   .skillImgs {
     justify-content: center;
   }
-  .projectContainer {
-    display: grid;
-    margin: auto;
-    gap: 3%;
-    width: 100%;
-    justify-content: space-between;
-  }
-  .projectContainer > div {
-    width: 100%;
-  }
-  .web h2 {
-    font-size: 25px;
-  }
-  .web p {
-    font-size: 20px;
-  }
+
 }
 @media only screen and (max-width: 590px) {
   .skills-center {
@@ -586,9 +562,11 @@ a.btn:active {
 .contact-center > p {
   text-align: center;
 }
+
 .contacts {
   display: flex;
   justify-content: space-around;
+  
 }
 footer {
   background: #111;
@@ -612,14 +590,7 @@ footer {
     gap: 20px;
   }
 }
-@media only screen and (max-width: 800px) {
-  .margin {
-    margin-top: 75%;
-  }
-  .btnCss{
-    margin-bottom:5%;
-  }
-}
+
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
     .imgRight {
@@ -651,39 +622,7 @@ footer {
         width: 300px;
       }
 }
-@media only screen and (max-width: 380px) {
-  .btnCss {
-    display: none;
-  }
-  .web h2 {
-    font-size: 15px;
-    line-height: 0;
-    margin-bottom: 15px;
-  }
-  .web p {
-    font-size: 12px;
-  }
-  .img-cover {
-    height: 60%;
-  }
-}
-@media only screen and (min-width: 380px) and (max-width: 700px) {
-  .web h2 {
-    font-size: 20px;
-  }
-  .web p {
-    font-size: 14px;
-  }
-  .img-cover {
-    height: 50%;
-  }
-  .web {
-    height: 30%;
-  }
-  .btnCss {
-    height: 10%;
-  }
-}
+
 footer p {
   color: #fff;
 }
