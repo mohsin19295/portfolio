@@ -227,6 +227,11 @@ li {
     transform: translate(10%, -50%);
   }
 }
+@media only screen and (max-width: 1054px) {
+  .techStack {
+    display:none;
+  }
+}
 @media only screen and (max-width: 768px) {
   .hero > h1 {
     font-size: 4rem;
@@ -359,25 +364,6 @@ li {
     margin-top: 5px;
 } */
 
-a.btn {
-  display: inline-block;
-  background-color: #dd9a05;
-  color: #fff;
-  border-radius: 0.5rem;
-  padding: 1rem 2rem;
-  border: 2px solid #dd9a05;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  transition: all 300ms ease-out;
-}
-
-a.btn:hover {
-  transform: translateY(-3px);
-  background: transparent;
-  color: #dd9a05;
-}
-a.btn:active {
-  transform: translateY(0px);
-}
 @media only screen and (max-width: 996px) {
   .right h1 {
     font-size: 2rem;
@@ -419,7 +405,9 @@ a.btn:active {
   display: flex;
   margin: auto;
   width: 90%;
+  height:470px;
   justify-content: space-between;
+
 }
 .project {
   width: 48%;
@@ -433,18 +421,59 @@ a.btn:active {
   height: 40%;
 } */
 
-.img-cover {
-  height: 60%;
-  width: 100%;
+.techStack h1,
+.techStack p {
+    display: inline;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: teal
 }
+
+.img-cover {
+  height: 50%;
+  width: 100%;
+
+}
+/* .techStack{
+  height: 7%;
+
+} */
 .web {
-  height: 25%;
+  height: 35%;
   text-align: center;
+
 }
 .btnCss {
-  height: 15%;
+  height: 11%;
   display: flex;
-  align-items: center;
+  /* display: inline; */
+  /* align-items: bottom; */
+
+  /* vertical-align: bottom; */
+    justify-content:center;
+    align-items:center;
+}
+
+
+a.btn {
+  display: inline-block;
+  background-color: #dd9a05;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  border: 2px solid #dd9a05;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 300ms ease-out;
+}
+
+a.btn:hover {
+  transform: translateY(-3px);
+  background: transparent;
+  color: #dd9a05;
+}
+a.btn:active {
+  transform: translateY(0px);
 }
 
 .container {
@@ -465,10 +494,10 @@ a.btn:active {
     font-size: 14px;
   }
   .img-cover {
-    height: 50%;
+    height: 40%;
   }
   .web {
-    height: 30%;
+    height: 35%;
   }
 
   .btnCss {
@@ -520,7 +549,7 @@ a.btn:active {
   .projectContainer {
     display: grid;
     margin: auto;
-    gap: 5%;
+    gap: 3%;
     width: 100%;
     justify-content: space-between;
   }
@@ -567,6 +596,10 @@ footer {
   text-align: center;
 }
 
+.margin{
+
+}
+
 @media only screen and (max-width: 700px) {
   .banner {
     width: 180px;
@@ -577,6 +610,14 @@ footer {
   .contacts {
     display: grid;
     gap: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .margin {
+    margin-top: 75%;
+  }
+  .btnCss{
+    margin-bottom:5%;
   }
 }
 
