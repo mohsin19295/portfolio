@@ -592,10 +592,10 @@ footer {
 @media only screen and (max-width: 399px) {
     .imgRight {
         margin-right: 40px;
-        width:400px;
+        width:350px;
       }
       .banner {
-        margin-top: 280px;  
+        margin-top: 200px;  
         height: 200px;
       }
     }
@@ -606,7 +606,7 @@ footer {
         width: 60%;
       }
       .banner {
-        margin-top: 260px;
+        margin-top: 240px;
         height: 250px;
         justify-content: center;
       }
@@ -621,8 +621,7 @@ footer {
         width: 70%;
       }
       .banner {
-        justify-content: center;
-        margin-top: 320px;
+        margin-top: 200px;
         height: 300px;
       }
       .header{
@@ -635,8 +634,7 @@ footer {
         width: 40%;
       }
       .banner {
-        justify-content: center;
-        margin-top: 320px;
+        margin-top: 200px;
         height: 300px;
       }
       .header{
