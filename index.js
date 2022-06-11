@@ -18,7 +18,6 @@ navLink.addEventListener('click', () => {
 })
 
 
-
 //navbar fixation 
 const navHeight = navBar.getBoundingClientRect().height
 // console.log('navHeight:', navHeight)
