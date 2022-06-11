@@ -1,0 +1,249 @@
+.wrapper {
+    display: flex;
+    gap: 10px;
+    padding: 0 2rem 3rem;
+    justify-content: space-between;
+}
+
+.banner {
+    border-radius: 50%;
+    margin-top: 100px;
+  }
+
+.left-wrapper {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+    padding: 3% 0 0 2%;
+}
+
+.left-wrapper > div {
+    /* border: 1px solid red; */
+}
+
+.hero {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero h4 {
+    font-size: 1.5rem;
+}
+
+.hero h1 {
+    font-size: 4.5rem;
+    line-height: 1.2;
+}
+
+.hero h3 {
+    font-weight: 400;
+    color: #dd9a05;
+    font-size: 20px;
+}
+
+.hero h3 span {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.hero .resume-btn {
+    background-color: #dd9a05;
+    max-width: 100px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.hero .resume-btn:hover {
+    background-color: #fff;
+    color: #dd9a05;
+    border: 2px solid #c98a04
+}
+
+.icons span i {
+    color: white;
+    margin-right: 1rem;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.icons span .fa-linkedin:hover {
+    color: rgb(88, 88, 226);
+}
+
+.icons span .fa-github:hover {
+    color: rgb(12, 12, 182);
+}
+
+
+.right-wrapper {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+
+.right-wrapper img {
+    /* border: 1px solid red; */
+    max-width: 300px;
+    height: 300px;
+}
+
+
+@media only screen and (max-width: 968px) {
+    .right-wrapper img {
+        max-width: 260px;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+
+    .right-wrapper img {
+        max-width: 220px;
+        height: 220px;
+    }
+    .hero h1 {
+        font-size: 4rem;
+        line-height: 1.1;
+    }
+    .hero h3 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .right-wrapper img {
+        max-width: 180px;
+        height: 180px;
+    }
+    .hero h4 {
+        font-size: 1.2rem;
+    }
+    
+    .hero h1 {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+
+    .hero .resume-btn {
+        padding: 8px;
+        font-weight: 400;
+        max-width: 80px;
+    }
+
+    .icons span i {
+        margin-right: 0.8rem;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .right-wrapper img {
+        max-width: 140px;
+        height: 140px;
+    }
+
+    .hero {
+        gap: 5px;
+    }
+
+    .hero h4 {
+        font-size: 1.1rem;
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero h3 {
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .hero .resume-btn {
+        padding: 5px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .wrapper{
+        gap: 0;
+    }
+    .left-wrapper{
+        width: 60%;
+    }
+
+    .right-wrapper{
+        width: 40%;
+    }
+
+    .right-wrapper img {
+        max-width: 100px;
+        height: 100px;
+    }
+    .hero h4 {
+        font-size: 1rem;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h3 {
+        font-weight: 200;
+        font-size: 14px;
+    }
+
+    .icons span i {
+        margin-right: 0.6rem;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 322px) {
+    .left-wrapper{
+        width: 65%;
+    }
+
+    .right-wrapper{
+        width: 35%;
+    }
+  .right-wrapper img {
+        max-width: 80px;
+        height: 80px;
+    }
+    .hero h4 {
+        font-size: 0.8rem;
+    }
+    
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h3 {
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+   .hero .resume-btn {
+        padding: 3px;
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    .icons span i {
+        margin-right: 0.5rem;
+        font-size: 18px;
+    }
+}
