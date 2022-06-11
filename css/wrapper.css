@@ -1,25 +1,41 @@
 .wrapper {
     display: flex;
     gap: 10px;
-    padding: 0 2rem 3rem;
+    padding: 8rem 2rem 10rem;
     justify-content: space-between;
+    /* border: 1px solid red;    */
 }
 
 .banner {
     border-radius: 50%;
-    margin-top: 100px;
+    margin: 100px 0 20px;
+    /* border: 1px solid red; */
   }
 
 .left-wrapper {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 55%;
-    padding: 3% 0 0 2%;
+    padding: 2% 0 0 2%;
+    /* border: 1px solid red; */
 }
 
-.left-wrapper > div {
+/* .left-wrapper > div {
+    border: 1px solid red;
+} */
+
+.right-wrapper {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    
+}
+
+.right-wrapper img {
+    max-width: 300px;
+    height: 300px;
     /* border: 1px solid red; */
 }
 
@@ -80,21 +96,6 @@
 
 .icons span .fa-github:hover {
     color: rgb(12, 12, 182);
-}
-
-
-.right-wrapper {
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    /* border: 1px solid red; */
-    
-}
-
-.right-wrapper img {
-    /* border: 1px solid red; */
-    max-width: 300px;
-    height: 300px;
 }
 
 
