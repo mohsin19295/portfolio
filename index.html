@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/project.css">
     <link rel="stylesheet" href="./css/wrapper.css">
     <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/skills.css">
     <link rel="icon" type="image/png" href="./images/mohsin-fab.png" />
     <title>Mohammad Mohsin</title>
 </head>
@@ -93,11 +94,10 @@
     </header>
 
         <section class="section about" id="about">
-            <h1 class="div-heading">About me</h1>
-            <hr class="div-heading-hr">
+            <div class="about-box container-box">
+                <div class="div-heading"><h1>About me</h1></div>
 
-            <section class="about-section">
-
+               <div class="about-container">
                 <div class="left-about">
                     <img class="dev" src="./images/display.gif" alt="" />
                 </div>
@@ -112,70 +112,91 @@
                     <p> As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for
                         discovering new things every day.</p>
                 </div>
-            </section>
-
+               </div>
+            </div>
         </section>
 
         <section class="skills section" id="skills">
-            <div class="title">
-                <h1>My Skills</h1>
-            </div>
-            <div class="skills-center container">
-                <div>
+            <div class="skills-box container-box">
+            <div class="div-heading"><h1>My skills</h1></div>
+
+            <div  class="skills-container">
+
+                <div class="inner-skills-box">
+                   <div>
                     <h3>Programming Language :</h3>
                     <p>JavaScript</p>
-                    <div class="skillImgs">
-                        <img src="hd/js.svg" width="50px" height="50px" alt="" />
+                    <div class="skillsImg">
+                        <img src="hd/js.svg" alt="" />
                     </div>
+                   </div>
+
+                   <div>
                     <h3>Front-End Technologies :</h3>
                     <p>HTML | CSS | EJS</p>
-                    <div class="skillImgs">
-                        <img src="hd/html.svg" width="50px" height="50px" alt="" />
-                        <img src="hd/css.svg" width="50px" height="50px" alt="" />
-                        <img src="images/ejs1.png" width="50px" height="50px" alt="" />
+                    <div class="skillsImg">
+                        <img src="hd/html.svg" alt="" />
+                        <img src="hd/css.svg" alt="" />
+                        <img src="images/ejs1.png" alt="" />
                     </div>
+                   </div>
+
+                  <div>
                     <h3>Front-End Frameworks & Libraries :</h3>
                     <p>React | Redux | Hooks | Material-UI</p>
-                    <div class="skillImgs">
-                        <img src="hd/react.svg" width="50px" height="50px" alt="" />
-                        <img src="hd/redux.svg" width="50px" height="50px" alt="" />
-                        <img src="images/hooks.png" width="50px" height="50px" alt="" />
-                        <img src="hd/mui.svg" width="50px" height="50px" alt="" />
+                    <div class="skillsImg">
+                        <img src="hd/react.svg" alt="" />
+                        <img src="hd/redux.svg" alt="" />
+                        <img src="images/hooks.png" alt="" />
+                        <img src="hd/mui.svg" alt="" />
                     </div>
+                  </div>
                 </div>
-                <div>
+
+                <div class="inner-skills-box">
+                 <div>
                     <h3>Back-End Technology & Framework :</h3>
                     <p>Express.js | Node.js | Postman | Rest Api</p>
-                    <div class="skillImgs">
-                        <img src="images/ex1.png" width="50px" height="50px" alt="" />
-                        <img src="hd/nodejs-icon.svg" width="50px" height="50px" alt="" />
-                        <img src="hd/postman.svg" width="50px" height="50px" alt="" />
-                        <img src="images/restApi.png" width="50px" height="50px" alt="" />
+                    <div class="skillsImg">
+                        <img src="images/ex1.png" alt="" />
+                        <img src="hd/nodejs-icon.svg" alt="" />
+                        <img src="hd/postman.svg" alt="" />
+                        <img src="images/restApi.png" alt="" />
                     </div>
-                    <h3>Database :</h3>
-                    <p>MongoDB</p>
-                    <div class="skillImgs">
-                        <img src="hd/mongo.svg" width="50px" height="50px" alt="" />
+                 </div>
 
+                    <div>
+                        <h3>Database :</h3>
+                    <p>MongoDB</p>
+                    <div class="skillsImg">
+                        <img src="hd/mongo.svg" alt="" />
                     </div>
+                    </div>
+
+                  <div>
                     <h3>Other Skills :</h3>
                     <p>DSA | Git | npm | CLI</p>
-                    <div class="skillImgs">
+                    <div class="skillsImg">
                         <img src="https://www.pngkit.com/png/full/234-2349639_data-structure-algorithms-weak-avl-tree.png"
                             width="45px" height="45px" alt="" />
                         <img src="hd/git.svg" width="50px" height="50px" alt="" />
                         <img src="hd/npm.svg" width="50px" height="50px" alt="" />
                         <img src="images/cli.png" width="50px" height="50px" alt="" />
                     </div>
+                  </div>
                 </div>
+
             </div>
+        </div>
+
         </section>
 
         <section class="section" id="projects">
-            <h1 class="div-heading">My Projects</h1>
-            <hr class="div-heading-hr">
+            <div class="project-box container-box">
+            <div class="div-heading"><h1>My Projects</h1></div>
 
-            <section class="project-section">
+                <div class="project-container">
+
                 <div class="card">
                         <img class="screenshot" src="./images/plumwe2.PNG" alt="">
                     <h2>PlumGoodness Clone</h2>
@@ -222,10 +243,7 @@
                 </div>
 
                 <div class="card">
-                    
                         <img class="screenshot" src="./images/discovery.png" alt="">
-                   
-
                     <h2>DiscoveryPlus Clone</h2>
                     <p>Discovery+ is a streaming service owned by Discovery, Inc. The service focuses on factual
                         programming drawn from the libraries of Discovery's main channel brands, as well as original
@@ -244,15 +262,14 @@
                         </div>
                     </div>
                 </div>
-
-            </section>
+            </div>
+            </div>
 
         </section>
 
         <section class="section contact" id="contact">
-            <div class="title">
-                <h1>Contact Me</h1>
-            </div>
+            <div style="text-align:center; margin-bottom: 20px;"><h1>Contact me</h1></div>
+
             <div class="contact-center container">
                 <p>Let's get in touch and build something together.</p>
                 <br />

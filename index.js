@@ -22,7 +22,7 @@ navLink.addEventListener('click', () => {
 const navHeight = navBar.getBoundingClientRect().height
 // console.log('navHeight:', navHeight)
 window.addEventListener('scroll', () => {
-  const scrollHeight = window.pageYOffset
+  const scrollHeight = window.pageYOffset+57
   // console.log('scrollHeight:', scrollHeight)
   if(scrollHeight > navHeight){
     navBar.classList.add('fix-nav')

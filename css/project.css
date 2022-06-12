@@ -1,7 +1,12 @@
-.project-section {
+.project-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+    gap: 15px;
     padding: 0 20px;
     z-index: -999;
 }
@@ -42,6 +47,7 @@
 
 .card h2{
     text-decoration: underline;
+    font-size:20px;
 }
 
 .card p{
@@ -79,5 +85,23 @@ a.btn:active {
 
     a.btn {
         padding: 0.4rem 0.6rem;
+    }
+
+    .card h2{
+        font-size:19px;
+       }
+       
+       .card p{
+          font-size:15px;
+       }
+}
+
+@media only screen and (max-width: 400px) {
+    .card h2{
+     font-size:16px;
+    }
+    
+    .card p{
+       font-size:14px;
     }
 }

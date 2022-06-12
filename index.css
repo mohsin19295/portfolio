@@ -5,20 +5,6 @@
   scroll-behavior: smooth;
 }
 
-.div-heading {
-  text-align: center;
-  /* border: 1px solid red; */
-}
-
-.div-heading-hr {
-  background-color: #dd9a05;
-  height: 3px;
-  width: 10%;
-  margin: auto;
-  margin-bottom: 2%;
-  margin-top: 0.5%;
-  border: 0;
-}
 
 @media screen and (max-width: 630px) {
   #a {
@@ -118,8 +104,6 @@ li {
   align-items: center;
   justify-content: space-between;
 }
-
-
 
 .dev {
   height: 400px;
@@ -247,15 +231,26 @@ li {
 
 
 .section {
-  padding: 5rem 0 7rem 0;
+  padding: 5rem 0;
   overflow-x: hidden;
-  /* border: 1px solid red; */
+}
+
+.div-heading {
+  border-bottom: 3px solid #dd9a05;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin: 0 auto 10px;
+  /* max-width: 150px; */
+}
+
+.container-box {
+  margin-top: 1rem;
 }
 
 
 .title {
   /* border: 1px solid red; */
-  margin: 4rem 0 7rem 0;
+  /* margin: 4rem 0 7rem 0; */
   text-align: center;
 }
 
@@ -278,15 +273,6 @@ li {
   z-index: 1;
 }
 
-
-
-
-
-
-
-
-
-
 /* .theme {
   background-color: #fff;
 }
@@ -296,81 +282,6 @@ li {
   color: #000;
 } */
 
-
-
-.container {
-  max-width: 114rem;
-  margin: 0 auto;
-}
-
-@media only screen and (max-width: 1200px) {
-  .container {
-    padding: 0 3rem;
-  }
-}
-
-
-
-.skills {
-  color: white;
-  position: relative;
-  width: 100%;
-  background-image: url(images/black.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 50% 0px;
-  z-index: -1;
-}
-
-.skills-center {
-  display: flex;
-  justify-content: space-around;
-}
-
-.skills-center h3 {
-  padding-top: 3rem;
-}
-
-.skills-center>div>p {
-  color: rgb(172, 167, 167);
-}
-
-@media only screen and (max-width: 800px) {
-  .skills-center {
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
-    justify-content: center;
-  }
-
-  .skills-center>* {
-    text-align: center;
-  }
-
-  .skillImgs {
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 590px) {
-  .skills-center {
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
-  }
-
-  .skills-center>* {
-    text-align: center;
-  }
-
-
-}
-
-.skillImgs {
-  display: flex;
-  gap: 10px;
-  margin-top: 5px;
-}
 
 .icon {
   color: #dd9a05;
