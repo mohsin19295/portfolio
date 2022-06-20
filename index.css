@@ -231,15 +231,17 @@ li {
 
 
 .section {
-  padding: 5rem 0;
+  padding: 4rem 0 5rem;
   overflow-x: hidden;
+  /* border: 1px solid red */
 }
 
 .div-heading {
   border-bottom: 3px solid #dd9a05;
   padding-bottom: 1rem;
   text-align: center;
-  margin: 0 auto 10px;
+  margin: 0 auto;
+  /* border: 1px solid #dd9a05; */
   /* max-width: 150px; */
 }
 

@@ -1,14 +1,14 @@
 .about-box{
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
 }
 
 .about-container {
-    padding: 0 30px;
     display: flex;
     justify-content: space-between;
-    gap: 2%;
+    gap: 20px;
+    padding: 0 30px;
+    margin-top: 30px;
 }
 
 .about-container>div {
