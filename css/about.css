@@ -20,11 +20,15 @@
 }
 
 
+
+
 .left-about img {
     border-radius: 5px;
     width: min(100%, 500px);
     height: min(300px, 100%);
 }
+
+
 
 .about-container .left-about {
     align-items: center;
@@ -70,7 +74,7 @@
     }
 
     .left-about img {
-        width: max(100%, 400px);
+        width: 100%;
     }
 
     .about-container .left-about {
