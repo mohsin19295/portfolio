@@ -1,53 +1,52 @@
 .contact {
-    color: white;
-    background-color: #000;
-  }
+  color: white;
+  background-color: #000;
+}
 
+.contact-box {
+  display: flex;
+  flex-direction: column;
+}
 
-  .contact-box{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  .contact-container {
-    margin-top: 30px;;
-    display: flex;
-    justify-content: space-around;
-    padding: 0 30px;
-    gap: 30px;
-    flex-wrap: wrap;
-  }
+.contact-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 30px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 
-  .contact-container > div{
+.contact-container>div {
 
   text-align: center;
   padding: 10px 15px;
 }
 
-  .contact-icon a {
-    color: #dd9a05;
-    font-size: 20px;
-  }
-
-
-.connect-text h3{
-    font-size: clamp(1.2rem, 1.6rem, 3.2rem);
-    margin-top: 20px;
-    padding: 0 20px;
-      text-align: center;
-}
-  
-.contact-info :is(h3, p){
-    font-size: clamp(1rem, 1.5rem, 3rem)
+.contact-icon a {
+  color: #dd9a05;
+  font-size: 20px;
 }
 
 
-footer div{
-    background: #111;
-    text-align: center;
-    color: #fff;
-    font-size: clamp(0.8rem, 1.3rem, 2.6rem);
-      padding: 20px;
+.connect-text h3 {
+  font-size: clamp(1.2rem, 1.5vw, 2rem);
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
 
-  }
+.contact-info :is(h3, p) {
+  font-size: clamp(0.9rem, 1.2vw, 1.5rem);
+}
+
+
+footer div {
+  background: #111;
+  text-align: center;
+  color: #fff;
+  font-size: clamp(0.8rem, 1vw, 1.4rem);
+  padding: 20px;
+
+}

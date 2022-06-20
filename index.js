@@ -1,6 +1,7 @@
 const menu = document.querySelector(".menu")
 const navOpen = document.querySelector(".hamburger")
 const navClose = document.querySelector(".close")
+const logo = document.querySelector(".top-nav")
 const navBar = document.querySelector(".navbar")
 const navLink = document.querySelector(".nav-list")
 
@@ -17,6 +18,9 @@ navLink.addEventListener('click', () => {
   menu.classList.remove("show")
 })
 
+logo.addEventListener('click', () => {
+  menu.classList.remove("show")
+})
 
 //navbar fixation 
 const navHeight = navBar.getBoundingClientRect().height
