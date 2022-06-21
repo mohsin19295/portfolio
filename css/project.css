@@ -155,7 +155,6 @@ a.btn:active {
 
 @media screen and (max-width: 540px) {
     .project-flex {
-        padding: .3em;
         grid-template-columns: repeat(4, 80%);
     }
 
@@ -166,15 +165,20 @@ a.btn:active {
     
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
     .project-flex {
         grid-template-columns: repeat(4, 90%);
-        gap: 0.8rem;
+    }
+    .project-card .inside-project-card {
+        min-height: 21rem;
     }
 }
 
 @media screen and (max-width: 300px) {
     .project-flex {
         grid-template-columns: repeat(4, 100%);
+    }
+    .project-card .inside-project-card {
+        min-height: 24rem;
     }
 }
