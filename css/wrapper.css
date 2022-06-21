@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 6rem 30px 8rem;
+    padding: 8rem 30px 8rem;
     display: flex;
     gap: 10px;
     justify-content: space-between;
@@ -51,10 +51,10 @@
 
 .hero .resume-btn {
     background-color: #dd9a05;
-    width: clamp(5rem, 10vw, 8rem);
+    width: clamp(5rem, 8vw, 8rem);
     text-align: center;
     padding: 8px;
-    font-size: clamp(16px, 22px);
+    font-size: clamp(0.8, 1.5rem);
     border-radius: 5px;
     color: #fff;
     font-weight: 500;

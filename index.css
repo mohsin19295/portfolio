@@ -22,15 +22,19 @@ li {
 }
 
 main section {
-  padding: 3rem 0 4rem;
+  padding: 3em 0 4em;
   overflow-x: hidden;
 }
 
-.div-heading {
-  border-bottom: 3px solid #dd9a05;
-  padding-bottom: 1rem;
+.div-heading h1 {
   text-align: center;
-  margin: 0 auto;
+  padding-bottom: 0.6rem;
+}
+
+.div-heading hr{
+  border: 2px solid #dd9a05;
+  width: 5em;
+  margin: auto;
 }
 
 .container-box {
@@ -40,7 +44,7 @@ main section {
 
 /* Header Section */
 .navbar {
-  padding: 15px 30px;
+  padding: 1em 30px;
 }
 
 .navContainer {
@@ -104,7 +108,6 @@ header {
     position: fixed;
     top: 0;
     left: -100%;
-    max-width: 260px;
     background-color: #fff;
     transition: all 500ms ease-in-out;
     z-index: 100;
@@ -120,12 +123,13 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #dd9a05;
-    padding: 1rem;
+    padding: 1em;
+    box-shadow: 0 5px 10px rgba(0,0,0.5);
   }
   
    .close, .hamburger {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.3rem;
     cursor: pointer;
   }
 
@@ -140,7 +144,7 @@ header {
   .nav-list {
     flex-direction: column;
     align-items: start;
-    padding: 20px 30px; 
+    padding: 1em 3em; 
   }
   
   .nav-link {
@@ -148,12 +152,13 @@ header {
   }
 
   .logo img{
-    max-width:40px;
-    height: 40px;
+    max-width:35px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items:center;
     border-radius: 50%;
-    margin-top: -10px;
+    margin-top: -5px;
+    margin-left: 2em;
   }
 }
