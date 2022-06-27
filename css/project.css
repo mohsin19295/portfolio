@@ -16,7 +16,7 @@
     padding: .5em;
     display: grid;
     gap: 1em;
-    grid-template-columns: repeat(5, 40%);
+    grid-template-columns: repeat(5, 43%);
     overflow: scroll;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
@@ -144,6 +144,9 @@ a.btn:active {
     .bottom-btn {
         flex-direction: column;
         gap: 0.8rem;
+    }
+    .project-flex {
+        grid-template-columns: repeat(5, 47%);
     }
 }
 

@@ -26,15 +26,16 @@ main section {
   overflow-x: hidden;
 }
 
-.div-heading h1 {
+ .div-heading h1 {
   text-align: center;
-  padding-bottom: 0.6rem;
-}
+} 
+
 
 .div-heading hr{
   border: 2px solid #dd9a05;
+  background-color: #dd9a05;
   width: 5em;
-  margin: auto;
+  margin: 0.5rem auto 0;
 }
 
 .container-box {
