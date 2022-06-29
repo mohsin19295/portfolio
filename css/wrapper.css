@@ -1,8 +1,9 @@
 .wrapper {
-    padding: 8rem 30px 8rem;
+    padding: 6rem 30px 8rem;
     display: flex;
     gap: 10px;
     justify-content: space-between;
+    /* border: 1px solid red; */
 }
 
 .left-wrapper {

@@ -5,13 +5,11 @@
   scroll-behavior: smooth;
 }
 
-
 body {
   font-family: "Poppins", sans-serif;
   position: relative;
   z-index: 0;
 }
-
 
 a {
   text-decoration: none;
@@ -166,8 +164,8 @@ header {
 
 #top-scroll {
   position: fixed;
-  bottom: 30px;
-  right: 20px;
+  bottom: 2%;
+  right: 3%;
 }
 
 .uil-angle-double-up {
