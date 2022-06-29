@@ -163,3 +163,14 @@ header {
     margin-left: 2em;
   }
 }
+
+#top-scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.uil-angle-double-up {
+  font-size: 3rem;
+  color: #dd9a05;
+}
