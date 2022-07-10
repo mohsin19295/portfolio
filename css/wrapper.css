@@ -33,6 +33,10 @@
     font-size: clamp(0.8rem, 1.2vw, 1.5rem);
 }
 
+.hero h4 span {
+    margin-left: 3px;
+}
+
 .hero h1 {
     font-size: clamp(2rem, 4vw, 3.5rem);
     line-height: 1.2;
@@ -42,7 +46,7 @@
 .hero h3 {
     font-weight: 400;
     color: #dd9a05;
-    font-size: clamp(0.8rem, 2vw, 1.2rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
 .hero h3 span {
@@ -116,7 +120,6 @@
     .left-wrapper {
         padding: 0;
     }
-
 }
 
 @media only screen and (max-width: 399px) {

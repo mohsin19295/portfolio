@@ -6,19 +6,18 @@
 .contact-box {
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
 }
 
 .contact-container {
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
-  padding: 0 30px;
   gap: 30px;
   flex-wrap: wrap;
 }
 
 .contact-container>div {
-
   text-align: center;
   padding: 10px 15px;
 }
@@ -48,5 +47,4 @@ footer div {
   color: #fff;
   font-size: clamp(0.8rem, 1vw, 1.4rem);
   padding: 20px;
-
 }

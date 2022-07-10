@@ -134,3 +134,9 @@ a.btn:hover {
         grid-template-columns: repeat(6, 90%);
     }
 }
+
+@media only screen and (max-width:300px){
+    .project-box .project-flex {
+        grid-template-columns: repeat(6, 110%);
+    }
+}
