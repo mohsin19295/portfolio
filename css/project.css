@@ -13,7 +13,7 @@ a.btn.active {
 
 .project-box .project-container {
     margin-top: 30px;
-    padding: 0 30px;
+    padding: 0 25px;
 }
 
 .project-box .project-flex {
@@ -32,10 +32,17 @@ a.btn.active {
     gap: 1em;
     padding: 1em;
     justify-content: space-between;
-    box-shadow: 0 0px 5px rgba(0, 0, 0.5);
     scroll-snap-align: center;
     border-radius: 30px;
     overflow: hidden;
+}
+
+.project-flex :where(.project-card, .screenshot){
+    box-shadow: 0 5px 10px rgba(0, 0, 0.5);
+}
+
+.project-flex :where(.project-card, .screenshot):hover{
+    box-shadow: 0 3px 5px rgba(0, 0, 0.3);
 }
 
 .project-card .screenshot {
@@ -43,7 +50,6 @@ a.btn.active {
     width: 100%;
     margin-bottom: 0.5em;
     border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0.5);
 }
 
 .project-card h2 {
@@ -64,33 +70,41 @@ a.btn.active {
     justify-content: space-between;
 }
 
-.bottom-btn .iconBtnCenter img {
+.bottom-btn .btn-group{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.bottom-btn .btn-group :where(img, a.btn){
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0.5);
+    transition: all 300ms ease-out;
+}
+
+.bottom-btn .btn-group :where(img, a.btn):hover{
+    box-shadow: 0 3px 5px rgba(0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+.bottom-btn .btn-group img {
     max-width: 40px;
     min-height: 40px;
     object-fit: contain;
     padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .bottom-btn a.btn {
     display: inline-block;
     background-color: #dd9a05;
     color: #fff;
-    border-radius: 10px;
     padding: 0.5rem 0.8rem;
-    border: 2px solid #dd9a05;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-    transition: all 300ms ease-out;
+    border: 1px solid #fff;
     text-decoration: none;
-    font-size: clamp(0.8rem, 1.2vw, 1.2rem);
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
 }
 
 a.btn:hover {
     cursor: pointer;
-    transform: translateY(-3px);
-    background: transparent;
-    color: #dd9a05;
 }
 
 @media only screen and (max-width:1200px){
