@@ -19,6 +19,9 @@
     box-shadow: 0px 0px 5px #dd9a05;
 }
 
+.about-container>div:hover {
+box-shadow: 0px 0px 2px #f1bb47;
+}
 
 .left-about img {
     border-radius: 5px;
