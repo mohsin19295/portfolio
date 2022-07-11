@@ -75,7 +75,7 @@
 .icons span i {
     color: white;
     margin-right: clamp(0.6rem, 3vw, 1.5rem);
-    font-size: clamp(1.2rem, 5vw, 2.2rem);
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
     cursor: pointer;
 }
 
