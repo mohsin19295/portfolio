@@ -20,9 +20,7 @@
 }
 
 .skills-container>div {
-  box-shadow:
-    6px 6px 12px 5px rgba(255, 255, 255, 0.26) inset,
-    -4px -4px 6px 5px rgba(230, 228, 228, 0.25) inset;
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.164);
   text-align: center;
   width: 48%;
   border-radius: 10px;
@@ -30,15 +28,7 @@
 }
 
 .skills-container>div:hover {
-  box-shadow:
-    3px 3px 10px 3px rgba(255,
-      255,
-      255,
-      0.3) ,
-    -3px -3px 6px 5px rgba(230,
-      228,
-      228,
-      0.25) ;
+  box-shadow: 0 3px 5px rgba(245, 245, 245, 0.103);
 }
 
 .inner-skills-box {
